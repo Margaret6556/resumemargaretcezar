@@ -1,0 +1,77 @@
+/* style.css */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Merriweather", serif;
+  background: radial-gradient(
+    263px at 100.2% 3%,
+    rgb(12, 85, 141) 31.1%,
+    rgb(205, 181, 93) 36.4%,
+    rgb(244, 102, 90) 50.9%,
+    rgb(199, 206, 187) 60.7%,
+    rgb(249, 140, 69) 72.5%,
+    rgb(12, 73, 116) 72.6%
+  );
+  padding: 20px auto;
+}
+
+h1,
+h2 {
+  font-size: medium;
+  font-family: "Merriweather", serif;
+}
+
+h3 {
+  border: solid 1px #8b9eab;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.resume-container {
+  color: #8b9eab;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px 40px;
+  width: 1400px;
+  height: 1500px;
+  border-radius: 14px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+resume-container {
+  text-align: center;
+}
+
+header .contact-info {
+  margin: 10px auto;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+a:link {
+  color: #cac7ba;
+}
+
+a:active {
+  color: #cac7ba;
+}
+
+a:hover {
+  color: #e1aa7e;
+}
+
+a:visited {
+  color: #cac7ba;
+}
