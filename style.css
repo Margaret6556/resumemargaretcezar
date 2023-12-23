@@ -23,12 +23,13 @@ h1 {
 
 h3 {
   border: solid 1px #8b9eab;
+  color: #ffffff;
 }
 
-.contact-info .navbar {
-overflow: hidden;
-background-color: transparent !important;
+ul {
+  list-style-type: square;
 }
+
 .resume-container {
   position: relative;
   margin: 20px auto;
