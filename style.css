@@ -1,37 +1,74 @@
 /* style.css */
 body {
-  font-family: Arial, sans-serif;
-  background-color: radial-gradient(
-    circle at 10% 20%,
-    rgb(137, 210, 253) 0%,
-    rgb(255, 241, 188) 90%
+  display: flex;
+  flex-direction: column;
+  font-family: fantasy papyrus, sans-serif;
+  background: radial-gradient(
+    263px at 100.2% 3%,
+    rgb(12, 85, 141) 31.1%,
+    rgb(205, 181, 93) 36.4%,
+    rgb(244, 102, 90) 50.9%,
+    rgb(199, 206, 187) 60.7%,
+    rgb(249, 140, 69) 72.5%,
+    rgb(12, 73, 116) 72.6%
   );
-  margin: 40px auto;
-  padding: 20px 20px;
+  padding: 10px auto;
+  color: #8b9eab;
+  font-weight: 400;
 }
 
+h1 {
+  font-size: x-large;
+}
+
+h3 {
+  border: solid 1px #8b9eab;
+}
+
+.contact-info .navbar {
+overflow: hidden;
+background-color: transparent !important;
+}
 .resume-container {
-  width: 80%;
-  margin: auto;
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 20px auto;
+  padding: 40px 40px;
+  width: 1400px;
+  height: 1500px;
+  border-radius: 14px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
-resume-container .header {
+resume-container {
   text-align: center;
 }
-.contact-info {
+
+header .contact-info {
+  margin: 10px auto;
   text-align: center;
 }
 
 header h1 {
   margin: 10px auto;
   text-align: center;
-  color: #333;
+  color: #ffffff;
 }
 
-section {
-  margin-top: 20px;
+a:link {
+  color: #cac7ba;
+}
+
+a:active {
+  color: #cac7ba;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #cac7ba;
 }
