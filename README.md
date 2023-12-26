@@ -1,21 +1,19 @@
 📄# Resume
 
-This repository contains my updated resume. It is a representation of my professional experience, education, and skills.
-
-This resume contents is a reflection of my qualifications and achievements.
+This repository contains an updated version of my resume, which reflects my professional experience, education, and skills.
 
 💪🏻## Professional Experience
 
-My professional experience has varied due to my nature of work, including gaps in my employment due to traveling, studying, and creating my tech startups.
+My work history has been varied, including gaps due to travel, study, and creating my own tech startups.
 
 💼 ## Education
 
-I have several certifications and take ongoing online classes. I am a self-taught developer with diverse interests.
+In addition to several certifications, I take ongoing online classes and consider myself a self-taught developer with diverse interests.
 
 🧠 ## Skills
 
-List of relevant skills, such as technical skills, programming languages, software proficiency, etc.
+I have a range of relevant skills, including technical abilities, programming languages, and software proficiency.
 
 ## Contact Information
 
-Will be provided upon request from direct message.
+Contact information is available upon request via direct message.
