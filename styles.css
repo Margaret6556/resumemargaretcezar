@@ -45,10 +45,6 @@ ul {
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
-resume-container {
-  text-align: center;
-}
-
 header .contact-info {
   margin: 10px auto;
   text-align: center;
@@ -58,6 +54,11 @@ header h1 {
   margin: 10px auto;
   text-align: center;
   color: #ffffff;
+}
+
+header h2 {
+  color: #ffffff;
+  padding: 20px 20px;
 }
 
 a:link {
@@ -74,4 +75,40 @@ a:hover {
 
 a:visited {
   color: #cac7ba;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  font-size: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+}
+
+.twitter {
+  background: #1da1f2;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.website {
+  background: #1da1f2, #ffffff;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.linkedin {
+  background: #1da1f2;
+  padding: 10px;
+  border-radius: 50px;
 }
