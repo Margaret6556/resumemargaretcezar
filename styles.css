@@ -18,11 +18,12 @@ body {
 h1,
 h2 {
   font-size: medium;
+  color: #ffffff;
   font-family: "Merriweather", serif;
 }
 
 h3 {
-  border: solid 1px #8b9eab;
+  text-decoration: underline;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
@@ -74,4 +75,21 @@ a:hover {
 
 a:visited {
   color: #cac7ba;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e1aa7e;
+  border-radius: 20px;
+}
+
+.fa-links {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
