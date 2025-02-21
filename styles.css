@@ -20,6 +20,7 @@ h2 {
   font-size: medium;
   color: #ffffff;
   font-family: "Merriweather", serif;
+  margin-top: 15px;
 }
 
 h3 {
@@ -46,10 +47,6 @@ ul {
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
-resume-container {
-  text-align: center;
-}
-
 header .contact-info {
   margin: 10px auto;
   text-align: center;
@@ -62,7 +59,7 @@ header h1 {
 }
 
 a:link {
-  color: #cac7ba;
+  color: gray;
 }
 
 a:active {
@@ -80,16 +77,19 @@ a:visited {
 .links-container {
   display: flex;
   flex-direction: column;
-  background-color: #e1aa7e;
-  border-radius: 20px;
+  background-color: #edeae9;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 50px;
 }
 
 .fa-links {
-  display: inline-block;
+  display: flex;
   text-align: left;
+  gap: 10px;
   padding: 10px;
-  margin: 10px;
-  color: #ffffff;
+  margin: 0 auto;
+  color: rgb(132, 61, 73);
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: medium;
 }
