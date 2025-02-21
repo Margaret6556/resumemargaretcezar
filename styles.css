@@ -78,9 +78,10 @@ a:visited {
   display: flex;
   flex-direction: column;
   background-color: #edeae9;
-  width: 70%;
-  margin: 0 auto;
+  width: 30%;
+  margin: 15px auto;
   border-radius: 50px;
+  padding: 5px 5px;
 }
 
 .fa-links {
