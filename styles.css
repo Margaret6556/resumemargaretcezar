@@ -101,7 +101,9 @@ a:visited {
 }
 
 @media (max-width: 960px) {
+  h2,
   h3 {
     text-align: center;
+    font-size: small;
   }
 }
